@@ -1,9 +1,9 @@
-##Amboss extension
+# Amboss extension
 
 ... ist eine Chrome Erweiterung, die die MC-Fragen Oberfläche von amboss.com geringfügig verbessert.
 Du kannst dir damit parallel Fragen, Falltext und Labor anzeigen lassen. Alles bleibt immer sichtbar.
 
-#Installation
+## Installation
 
 1. Dateien hier als .zip runterladen
 2. Dateien in Ordner entpacken
@@ -13,6 +13,6 @@ Du kannst dir damit parallel Fragen, Falltext und Labor anzeigen lassen. Alles b
 6. entpackten .zip Ordner wählen
 7. fertig
 
-#Benutzung
+## Benutzung
 Einfach auf Amboss kreuzen. 
 Um das Labor parallel zu öffnen auf das "Labor"-Icon oben rechts in der Chrome Toolbar klicken.
