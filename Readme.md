@@ -5,7 +5,7 @@ Du kannst dir damit parallel Fragen, Falltext und Labor anzeigen lassen. Alles b
 
 ## Installation
 
-1. Dateien hier als .zip runterladen
+1. Dateien hier als .zip runterladen (der grüne Knopf "Clone or download")
 2. Dateien in Ordner entpacken
 3. Chrome öffnen und auf chrome://extensions gehen
 4. oben rechts "Developer mode" einschalten
