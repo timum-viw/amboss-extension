@@ -1,20 +1,20 @@
 body {
-    display: block !important;
+    display: flex !important;
+    flex-direction: column !important;
 }
-#footer {
-    position: fixed !important;
-    bottom: 0 !important;
-    left: 0 !important;
-    right: 0 !important;
+#mainContent, #footer {
     height: auto !important;
 }
-#collection, #collection > div, #QuestionSheet, aside#container, #question-box > div, section.partial-right-inner {
+#mainContent {
+    flex-grow: 1 !important;
+    overflow: hidden !important;
+}
+#collection, #collection > div, #QuestionSheet, aside#container {
     height: 100% !important;
 }
 #QuestionSheet {
     margin: 0 !important;
-    padding-top: 42px !important;
-    padding-bottom: 30px !important;
+    padding: 42px 0 5px 0 !important;
 }
 #question-box, aside#container {
     margin-bottom: 0 !important;
