@@ -1,20 +1,32 @@
 var styles = `
+body {
+    display: block;
+}
+#footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+}
 #mainContent {
-    height: ${window.innerHeight - 42 - 30}px !important;
     display: flex;
 }
 #walk {
     flex-grow: 1;
 }
-#collection {
-    position: relative;
+#collection, #collection > div {
+    height: 100%;
 }
 #QuestionSheet {
-    position: absolute;
-    height: ${window.innerHeight - 42 - 30}px !important;
+    height: 100%;
+    margin: 0;
+    padding-top: 42px;
 }
 aside#container {
     height: 100%;
+    margin-bottom: 0 !important;
+    padding-bottom: 30px;
 }
 section.partial-right-inner {
     height: 100%;
@@ -24,7 +36,7 @@ section.partial-right-inner {
     max-width: 30rem !important;
     overflow: scroll;
     height: 100%;
-    margin-top: 42px !important;
+    padding: 42px 0 30px 0 !important;
 }
 `
 var element = document.createElement('style');
